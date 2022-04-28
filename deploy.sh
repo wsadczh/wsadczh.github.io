@@ -18,8 +18,8 @@ if [ -z "$GITHUB_TOKEN" ]; then
 else
   msg='来自github actions的自动部署'
   githubUrl=https://wsadczh:${GITHUB_TOKEN}@github.com/wsadczh/wsadczh.github.io.git
-  git config --global user.name "wsadczh"
-  git config --global user.email "654032921@qq.com"
+  git config user.name "wsadczh"
+  git config user.email "654032921@qq.com"
 fi
 git init
 git add -A
