@@ -48,15 +48,15 @@ tags:
 
 #### github 网站流程
 
-1,创建仓库，wu529778790.github.io；  
+1,创建仓库，wsadczh.github.io；  
 2,创建两个分支：master 与 hexo；  
 3,设置 hexo 为默认分支（因为我们只需要手动管理这个分支上的 Hexo 网站文件）；  
-4,使用 git clone git@github.com:wu529778790/wu529778790.github.io.git 拷贝仓库；  
-5,在本地 wu529778790.github.io 文件夹下通过 Git bash 依次执行 npm install hexo、hexo init、npm install 和 npm install hexo-deployer-git（此时当前分支应显示为 hexo）;  
+4,使用 git clone git@github.com:wsadczh/wsadczh.github.io.git 拷贝仓库；  
+5,在本地 wsadczh.github.io 文件夹下通过 Git bash 依次执行 npm install hexo、hexo init、npm install 和 npm install hexo-deployer-git（此时当前分支应显示为 hexo）;  
 6,修改\_config.yml 中的 deploy 参数，分支应为 master；  
 7,依次执行 git add .、git commit -m “…”、git push origin hexo 提交网站相关的文件；  
 8,执行 hexo generate -d 生成网站并部署到 GitHub 上。  
-9,这样一来，在 GitHub 上的 wu529778790.github.io 仓库就有两个分支，一个 hexo 分支用来存放网站的原始文件，一个 master 分支用来存放生成的静态网页。完美( •̀ ω •́ )y！
+9,这样一来，在 GitHub 上的 wsadczh.github.io 仓库就有两个分支，一个 hexo 分支用来存放网站的原始文件，一个 master 分支用来存放生成的静态网页。完美( •̀ ω •́ )y！
 
 ### 填坑记录
 
@@ -71,7 +71,7 @@ tags:
 
 最后要说的是 git 提交的时候遇见的问题了，不得不总结一下，这次的坑太大，当天应是没解决。提交 hexo 分支到 github 上的时候一直报错，百度了各种解决办法还是不行，按照下面的办法终于实现了把配置上传到 hexo 分支，而自己的文章页面在 master 分支。
 
-    git remote add origin git@github.com:wu529778790/wu529778790.github.io.git
+    git remote add origin git@github.com:wsadczh/wsadczh.github.io.git
     git add *
     git push origin hexo
 
