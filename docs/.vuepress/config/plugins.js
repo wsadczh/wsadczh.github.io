@@ -28,7 +28,7 @@ module.exports = [
         {
           title: "通过百度搜索本站的",
           frontUrl:
-            "https://www.baidu.com/s?ie=UTF-8&wd=site%3Ablog.shenzjd.com",
+            "https://www.baidu.com/s?ie=UTF-8&wd=site%3Ablog.scstudy.site",
         },
       ],
     },
