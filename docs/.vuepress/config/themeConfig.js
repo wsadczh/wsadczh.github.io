@@ -44,8 +44,8 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: 'wu529778790', // 必需
-    link: 'https://shenzjd.com', // 可选的
+    name: 'wsadczh', // 必需
+    link: 'http://scstudy.site', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
@@ -59,22 +59,22 @@ module.exports = {
       {
         iconClass: 'icon-youjian',
         title: '发邮件',
-        link: 'mailto:529778790@qq.com',
+        link: 'mailto:654032921@qq.com',
       },
       {
         iconClass: 'icon-github',
         title: 'GitHub',
         link: 'https://github.com/wsadczh',
       },
-      {
-        iconClass: 'icon-erji',
-        title: '听音乐',
-        link: 'https://shenzjd.com/shenzjd/music/',
-      },
+      // {
+      //   iconClass: 'icon-erji',
+      //   title: '听音乐',
+      //   link: http://scstudy.site/wsadczh/music/',
+      // },
     ],
   },
   footer: {
-    createYear: 2015, // 博客创建年份
+    createYear: 2022, // 博客创建年份
     copyrightInfo:
       'wsadczh',
   },
