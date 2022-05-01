@@ -73,7 +73,7 @@ module.exports = [
   [
     "vuepress-plugin-baidu-tongji", // 百度统计
     {
-      hm: "8ec38a366284caaba41f3ead2b7c93f3",
+      hm: "aecdf45ba9530cd74e032e49a29b4cb1",
     },
   ],
   [
@@ -147,34 +147,34 @@ module.exports = [
   // ],
   // 为博客文章自动随机添加名人名言或其他，可自定义样式和内容
   // ["vuepress-plugin-boxx"],
-  [
-    "meting",
-    {
-      meting: {
-        // 歌单地址-> 如果输入可忽略server|type|mid
-        // 但是不知道为什么不写上这三个会报错, 所以我都写上了
-        auto: "https://music.163.com/#/song?id=514053886",
-        // 当前服务为netease -> 网易
-        server: "netease",
-        // 类型为歌单
-        type: "song",
-        // 歌单id
-        mid: "514053886",
-      },
-      aplayer: {
-        // 歌单为随机
-        // order: "random",
-        // 0为不显示歌词
-        // lrcType: 0,
-        // 音量
-        // volume: 0.15,
-        // 开启迷你模式
-        mini: true,
-        // 自动播放
-        autoplay: false,
-      },
-    },
-  ],
+  // [
+  //   "meting",
+  //   {
+  //     meting: {
+  //       // 歌单地址-> 如果输入可忽略server|type|mid
+  //       // 但是不知道为什么不写上这三个会报错, 所以我都写上了
+  //       auto: "https://music.163.com/#/song?id=514053886",
+  //       // 当前服务为netease -> 网易
+  //       server: "netease",
+  //       // 类型为歌单
+  //       type: "song",
+  //       // 歌单id
+  //       mid: "514053886",
+  //     },
+  //     aplayer: {
+  //       // 歌单为随机
+  //       // order: "random",
+  //       // 0为不显示歌词
+  //       // lrcType: 0,
+  //       // 音量
+  //       // volume: 0.15,
+  //       // 开启迷你模式
+  //       mini: true,
+  //       // 自动播放
+  //       autoplay: false,
+  //     },
+  //   },
+  // ],
   // [
   //   "@vuepress/pwa",
   //   {
